@@ -1,0 +1,2 @@
+mouse_init:
+    ret

@@ -1,8 +1,13 @@
 # EdrysOS XVector
 ## OS avec apps et GUI
 
-Execution :
+<b> Execution : </b>
 
 ```
-BLABLA
+qemu-system-x86_64 -drive format=raw,file=os.bin
+
+```
+Sans graphique : 
+```
+qemu-system-x86_64 -drive format=raw,file=os.bin -nographic
 ```
